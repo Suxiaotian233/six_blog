@@ -1,0 +1,269 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 1350px;
+   // background-color: #f6f4ef;
+    background-image: url("../image/gerenbj2.jpg");
+    background-size: 79%;
+    //background-repeat: no-repeat;
+   // transform: scale(0.6);
+}
+.main{
+    width: 90%;
+    height: 1300px;
+//border: 1px solid red;
+    margin: 0 auto;
+  // background-color: #e5f1f9;
+    box-shadow: 0px 0px 20px #a9a59b;
+
+}
+
+/*顶部栏*/
+.main .top{
+    height: 6%;
+// border: 1px solid #6b5eff;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+.main .top .fllogo{
+    width: 273px;
+    height: 63px;
+    float: left;
+    margin: 10px;
+
+}
+.main .top .fllogo img{
+    width: 273px;
+    height: 63px;
+//margin-right: 0px;
+// transform: scale(0.18);
+//margin: -150px -730px;
+}
+.main .top .nav{
+    width: 48%;
+    height: 50%;
+//border: 1px solid red;
+    float: right;
+    margin: 30px 220px 30px  5px;
+    position: relative;
+}
+.main .top .nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;//均匀分布
+
+}
+.main .top .nav ul li{
+    display: inline;
+    font-size: 23px;
+    font-family: 仿宋;
+    font-weight: bold;
+    line-height: 52px;
+//margin-bottom: 15px;
+
+}
+.main .top .nav ul li a{
+    text-decoration: none;
+
+}
+a:visited{
+    color: #333;
+}
+
+.main .top .nav ul li a:hover{
+    color: #6671ff;
+}
+.main .top .zhuce {
+    width: 157px;
+    height: 40px;
+    //border: 1px solid red;
+    margin-right: 0px;
+    position: absolute;
+    right: 40px;
+    margin-top: 25px;
+}
+.main .top .zhuce img {
+    width: 100%;
+    height: 100%;
+}
+
+/*内容栏*/
+.main .content {
+    width: 100%;
+    min-height: 950px;
+    //border: 1px solid red;
+}
+/*内容栏左*/
+.main .content .left{
+    width: 55%;
+    height: 900px;
+    //border: 1px solid rebeccapurple;
+    float: left;
+    margin: 20px 0px 0px 100px;
+    overflow: auto;
+}
+/*文章一*/
+.main .content .left .article1{
+    width: 90%;
+    height: 200px;
+    margin: 15px auto;
+    background-color: rgba(225,225,225,0.85);
+    position: relative;
+    box-shadow: 0px 0px 20px #a9a59b;
+}
+.main .content .left .article1 .aimg1{
+    width: 23%;
+    height: 65%;
+    margin: 30px  0px 30px 20px;
+    border: 1px solid #975cff;
+    float: left;
+}
+.main .content .left .article1 .aimg1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.main .content .left .article1 .acontent{
+    width: 68%;
+    height: 50%;
+//border: 1px solid #6671ff;
+    float: right;
+    //margin: -165px 26px 30px 10px;
+    margin: 20px 10px;
+}
+.main .content .left .article1 .acontent p{
+    text-indent: 30px;
+    font-family: 仿宋;
+    font-size: 19px;
+    text-overflow:ellipsis;
+    width: 100%;
+    overflow : hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+// font-weight: bold;
+}
+.main .content .left .article1:hover{
+    transform: scale(1.05);
+}
+.main .content .left .article1 .acontent span{
+//border: 1px solid #fc4eff;
+    width: 200px;
+    height: 34px;
+//float: left;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 仿宋;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+.main .content .left .article1 .acontent img{
+    width: 93px;
+    height: 27px;
+    float: right;
+    margin-top: 31px;
+}
+
+/*内容栏右*/
+.main .content .right{
+    width: 25%;
+    height: 900px;
+   // border: 1px solid rebeccapurple;
+    float: right;
+    margin: 20px 105px 0px 0px;
+}
+
+/*用户信息*/
+.main .content .right .geren{
+    width: 100%;
+    height: 222px;
+    border: 1px solid #c8c4b9;
+    //background-color: white;
+}
+.main .content .right .geren .gerenimg{
+    width: 30%;
+    height: 98px;
+    margin: 10px auto;
+    //border: 1px solid red;
+}
+.main .content .right .geren .gerenimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.main .content .right .geren .ge2{
+    width: 90%;
+    height: 27px;
+   // border: 1px solid red;
+    padding: 10px 0px 0px 0px;
+}
+.main .content .right .geren .ge2 ul{
+    list-style: none;
+    text-align: center;
+    display: flex;//均匀分布
+}
+.main .content .right .geren .ge2 ul li{
+    display: inline;
+    font-size: 20px;
+    font-family: 仿宋;
+    font-weight: bold;
+}
+.main .content .right .geren .ge3{
+    width: 90%;
+    height: 27px;
+   // border: 1px solid red;
+    padding: 10px 0px 0px 0px;
+}
+.main .content .right .geren .ge3 ul{
+    list-style: none;
+    text-align: center;
+    display: flex;//均匀分布
+}
+.main .content .right .geren .ge3 ul li{
+    display: inline;
+    font-size: 20px;
+    font-family: 仿宋;
+    font-weight: bold;
+}
+
+.main .content .right .list .lul h1{
+    background-color: #fff7d7;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 26px;
+    color: #787878;
+    text-indent: 30px;
+    font-family: 仿宋;
+}
+.main .content .right .list .lul ul{
+    list-style: none;
+    text-align: center;
+}
+.main .content .right .list .lul ul li{
+    background-color: #DBDDE6;
+    line-height: 45px;
+    border-bottom: #ffffff;
+    border-bottom-style: solid;//列表底部的白线条
+border-width: 1px;
+    text-indent: 20px;
+}
+
+/*底部栏*/
+.botton{
+    height: 7%;
+    width: 100%;
+//border: 1px solid #6b5eff;
+    float: right;
+    margin-top: 62px;
+}
+.main .botton p{
+    text-align: center;
+
+}
